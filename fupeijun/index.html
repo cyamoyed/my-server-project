@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>傅培</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+          rel="stylesheet">
     <style>
-        html, body {
+        html,
+        body {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
-
+            font-family: 'JetBrains Mono', monospace;
         }
+
+        .s1 {
+            font-size: 3em;
+            color: #333;
+            font-style: italic;
+        }
+
         .main {
             width: 100%;
             height: 100%;
@@ -19,8 +30,9 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            text-align: center;
         }
-        
+
         .footer {
             position: fixed;
             bottom: 0;
@@ -34,20 +46,26 @@
             text-align: center;
             line-height: 50px;
         }
+
+        .end {
+            font-style: italic;
+        }
     </style>
 </head>
+
 <body>
 <div class="main">
-    <h1><i>Fupei's Web</i></h1>
-    <div> Wish my family will always be healthy,</div>
-    <div>and you have a great life.</div>
+    <h1 class="s1">Fupei's Web</h1>
+    <div>Hope my family will always be in good health,</div>
+    <div>and she has a great life.</div>
     <br>
-    <div><i>Thank you and love!</i></div>
+    <div class="end">Thank you and love!</div>
 </div>
 <nav class="footer">
     <div>
-        <a href="https://beian.miit.gov.cn" rel="nofollow" target="_blank">渝ICP备20002043号-4</a>
+        <!-- <a href="https://beian.miit.gov.cn" rel="nofollow" target="_blank">渝ICP备20002043号-4</a> -->
     </div>
 </nav>
 </body>
+
 </html>

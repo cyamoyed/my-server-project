@@ -2,8 +2,16 @@
 
 ## 制作镜像
 
-docker build -t fpj-documentation:latest .
+docker build -t cyam-document:latest .
+
+## 打包
+
+docker save -o cyam-document.tar cyam-document:latest
+
+## 加载
+
+docker load -i cyam-document.tar
 
 ## 启动
 
-docker run -d -p 11123:80 fpj-documentation
+docker run --name cyam-document -d -p 11123:80 cyam-document
