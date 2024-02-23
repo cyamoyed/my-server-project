@@ -40,6 +40,7 @@ module.exports = {
         text: 'Docker',
         items: [
           { text: 'docker命令', link: 'https://server.static.fupeijun.com/docker/docker-command.pdf' },
+          { text: 'docker常用命令', link: '/docker/docker常用命令' },
         ]
       },
       {
